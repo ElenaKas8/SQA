@@ -56,3 +56,17 @@ limit 3
 select * from Staff
 where id in (4,12,19)
 
+Найти список работников с именем Анна, у которых уровень должности либо средний(middle), либо старший(senior),
+
+select * from Staff
+where firstname = 'Anna' and (position like '%middle%' or position like '%senior%');
+
+select * from Staff
+where firstname = 'Anna' and position not like '%junior%';
+
+Найти список работников, у который юзернейм заканчивается на ‘1’,
+
+select * from Staff
+where username like '%1';
+
+
