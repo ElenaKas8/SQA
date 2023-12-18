@@ -69,4 +69,12 @@ where firstname = 'Anna' and position not like '%junior%';
 select * from Staff
 where username like '%1';
 
+Найти список работников, у который юзернейм состоит из 5 символов
+
+select * from Staff
+where username like '_____';
+
+
+
+
 
