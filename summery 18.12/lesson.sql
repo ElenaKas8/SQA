@@ -51,3 +51,8 @@ select * from Staff
 where firstname like 'A%'
 limit 3
 
+Найти сотрудников с id 4, 12, 19
+
+select * from Staff
+where id in (4,12,19)
+
