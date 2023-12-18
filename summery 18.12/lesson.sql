@@ -43,3 +43,11 @@ where position like '%middle%' and age>20;
 
 select * from Staff
 where firstname like 'A%' and has_child = 'N';  
+
+
+-- Найти первых трех сотрудников, чьи имена начинаются на A
+
+select * from Staff
+where firstname like 'A%'
+limit 3
+
