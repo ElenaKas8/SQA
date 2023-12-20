@@ -137,3 +137,17 @@ WHERE
 	Suppliers.Country='Japan'
 	AND
 	Products.Price BETWEEN 10 AND 150
+
+
+    ## Базовый порядок работы с Git
+
+1. **Подключение**
+    - `git init`
+2. **Зафиксировать изменения**
+    - `git add .` добавить в индекс (очередь на коммит)
+    - `git commit -m 'update'`
+3. **Привязка `LOCAL ↔ REMOTE` репозиториев**
+    - `git remote add origin скопированная_ссылка`
+    - `git remote -v` просмотр тек/привязка
+4. **Выгрузить ветку на GitHub**
+    - `git push -u origin название_ветки`
