@@ -1,5 +1,10 @@
 /*https://github.com/annykh/genTech/blob/main/staff.txt
 
+Отправляю ссылку на гит по Gen Tech Summary Session 
+https://github.com/annykh/GenTech-190923
+
+Установка MySQL:
+https://drive.google.com/file/d/1SXcx3GhQwwPctgVBS9KuYW_czrksua9Z/view
 
 //*Вывести всю таблицу Staff
 
