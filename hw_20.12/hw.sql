@@ -24,16 +24,20 @@ WHERE SupplierID IN (
 
 
 --^ (3) Вывести два самых дорогих товара из категории Beverages из USA
-
--- SELECT ProductName,Price
-    -- FROM Categories
-    -- WHERE CategoryName = 'Beverages'
-    -- JOIN Products ON Categories.CategoryID = Products.CategoryID
-    -- JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
-    -- WHERE Country = 'USA'
-    -- ORDER BY Price DESC
-    -- LIMIT 2
-
+SELECT ProductName, Price
+FROM Products
+WHERE CategoryID IN (
+    SELECT CategoryID
+    FROM Categories
+    WHERE CategoryName = 'Beverages'
+)
+AND SupplierID IN (
+    SELECT SupplierID
+    FROM Suppliers
+    WHERE Country = 'USA'
+)
+ORDER BY Price DESC
+LIMIT 2;
 
 --^ (4) Вывести название и стоимость в USD одного самого дорогого проданного товара
 
