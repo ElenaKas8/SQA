@@ -1,3 +1,4 @@
+-- database: :memory:
 https://western-appeal-39b.notion.site/GenTech-190923-m-be-m-fe-m-qa-ed7e7a76535646e0a5fe8daf9f27c866
 https://western-appeal-39b.notion.site/GenTech-4-Jan-10-2024-d3a7ccb89c984a839ab33c006bfed7c0
 //Проектирование БД-
