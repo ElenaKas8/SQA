@@ -2,6 +2,8 @@
 
 -- https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_all
 
+--https://western-appeal-39b.notion.site/GenTech-5-Jan-17-2024-69d0868b3e8d41a789959b261580c545
+
 -- Задача. Вывести название и стоимость одного самого дорогого товара из категории 1
 
 -- SELECT
