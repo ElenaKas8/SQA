@@ -4,10 +4,11 @@
 
 
 --1.Вывести сред/стоимость товаров из категорий 1, 2, 5,
- --у которых название начинается с буквы t
--- SELECT AVG(price) AS average_price
--- FROM Products 
--- WHERE CategoryID IN (1, 2, 5) AND ProductName LIKE 't%';
+--  у которых название начинается с буквы t
+
+SELECT AVG(price) AS average_price
+FROM Products 
+WHERE CategoryID IN (1, 2, 5) AND ProductName LIKE 't%';
 
 
 
