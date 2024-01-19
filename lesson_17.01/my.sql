@@ -1,3 +1,4 @@
+-- database: :memory:
 -- https://dbdiagram.io/d/65a796d9ac844320ae18dbbe
 
 -- https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_all
