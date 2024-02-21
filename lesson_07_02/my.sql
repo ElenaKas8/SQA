@@ -1,6 +1,9 @@
 --workbanche
 --https://western-appeal-39b.notion.site/GenTech-8-Feb-7-2024-95e0e565f64c46019cbe7d92a90a4e21?pvs=4
 
+
+
+--https://western-appeal-39b.notion.site/GenTech-190923-m-be-m-fe-m-qa-ed7e7a76535646e0a5fe8daf9f27c866
 --создать базу данных
 --Пример. Создать БД music 
 CREATE DATABASE music;
@@ -15,10 +18,10 @@ CREATE TABLE users(
 
 --## Валидация данных в SQL / SQL Constraints
 
-- По сути, представляет собой правила (ограничения)
-- Позволяет повысить целостность
+-- По сути, представляет собой правила (ограничения)
+-- Позволяет повысить целостность
 
-**Основные ограничения:**
+--**Основные ограничения:**
 
 - `primary key` (`unique + not null`)
 - `unique` уникальное
